@@ -1,0 +1,1489 @@
+@media (min-width: 768px) {
+  .d-hide {
+    display: none;
+  }
+}
+
+/* hidden antispam form field */
+.antspm { display: none; }
+
+.red, .error { color: #FF0000; }
+
+.display-block { display: block; }
+
+iframe[name=google_conversion_frame], a.novisible img { display: none; }
+
+.js-star-rating .sublabel { cursor: default; }
+
+.messages { padding: 0 0 25px 0; }
+.messages .err { color: #FF0000; font-weight: bold; }
+.messages .scs { color: #0D6800; font-weight: bold; }
+
+.page-general .custom-center, .custom-center { text-align: center; }
+
+#footer .ico2-apek,
+#footer .ico2-apek-2,
+#footer .ico2-heureka,
+#footer .ico2-heureka-2,
+#footer .ico2-mojeid, 
+#footer .ico2-heureka-sk,
+#footer .ico2-pricemania-sk,
+#footer .ico2-shoproku-sk,
+#footer .ico2-opineo-pl,
+#footer .ico2-ceneo-pl,
+#footer .ico2-tylko-pl,
+#footer .ico2-rzetelna-pl,
+#footer .ico2-money-pl,
+#footer .ico2-raiffeisen-ro,
+#footer .ico2-shopmania-bg,
+#footer .ico2-izgodno-bg,
+#footer .ico2-shopmania-es,
+#footer .ico2-shopalike-es,
+#footer .ico2-idealo-es,
+#footer .ico2-shopmania-pt,
+#footer .ico2-shopalike-pt,
+#footer .ico2-kuantokusta-pt,
+#footer .ico2-shopmania-de,
+#footer .ico2-billiger-de,
+#footer .ico2-idealo-de,
+#footer .ico2-ekomi-de,
+#footer .ico2-ekomi-at  {
+    overflow: hidden;
+}
+
+#footer .ico2-apek:before,
+#footer .ico2-apek-2:before,
+#footer .ico2-heureka:before,
+#footer .ico2-heureka-2:before,
+#footer .ico2-mojeid:before {
+    background: url('../img/1/oceneni.png') 0 0 no-repeat;
+    content: "";
+}
+
+#footer .ico2-heureka-sk:before {
+    background: url('../img/2/sk_oceneni.png') 0 0 no-repeat;
+    content: "";
+    background-position: 0 -254px;
+}
+#footer .ico2-pricemania-sk:before {
+    background: url('../img/2/sk_oceneni.png') 0 0 no-repeat;
+    content: "";
+    background-position: 0 -130px;
+}
+#footer .ico2-shoproku-sk:before {
+    background: url('../img/2/sk_oceneni.png') 0 0 no-repeat;
+    content: "";
+}
+#footer .ico2-obchodnikroku-sk:before {
+    background: url('../img/2/sk_oceneni.png') 0 0 no-repeat;
+    content: "";
+    background-position: 0 -370px;
+}
+
+#footer .ico2-opineo-pl:before,
+#footer .ico2-ceneo-pl:before,
+#footer .ico2-tylko-pl:before,
+#footer .ico2-rzetelna-pl:before,
+#footer .ico2-money-pl:before {
+    background: url('../img/4/pl_oceneni.png') 0 0 no-repeat;
+    content: "";
+}
+
+#footer .ico2-shopmania-de:before {
+    background: url('../img/5/ShopMania.png') 0 0 no-repeat;
+    content: "";
+}
+#footer .ico2-billiger-de:before {
+    background: url('../img/5/billiger_de.png') 0 0 no-repeat;
+    content: "";
+}
+#footer .ico2-idealo-de:before {
+    background: url('../img/5/idealo-partner.png') 0 0 no-repeat;
+    content: "";
+}
+#footer .ico2-ekomi-de:before {
+    background: url('../img/5/ekomi.gif') 0 0 no-repeat;
+    content: "";
+}
+
+#footer .ico2-ekomi-at:before {
+    background: url('https://www.ekomi.de/widgets/1972/widget_2.gif') 0 0 no-repeat;
+    content: "";
+}
+
+#footer .ico2-raiffeisen-ro:before {
+    background: url('../img/8/160x105_3rate.png') 0 0 no-repeat;
+    content: "";    
+}
+
+#footer .ico2-raiffeisen-ro,
+#footer .ico2-raiffeisen-ro:before {    
+    width: 160px;
+    height: 105px;
+    background-position: 0 0;
+}
+
+#footer .logos object {
+    margin: 0 40px;
+}
+
+#footer .ico2-shopmania-bg:before,
+#footer .ico2-izgodno-bg:before {
+    background: url('../img/12/bg_badges.png') 0 0 no-repeat;
+    content: "";
+}
+
+#footer .ico2-shopmania-es:before,
+#footer .ico2-shopalike-es:before,
+#footer .ico2-idealo-es:before {
+    background: url('../img/14/es_badges.png') 0 0 no-repeat;
+    content: "";
+}
+
+#footer .ico2-shopmania-pt:before,
+#footer .ico2-shopalike-pt:before,
+#footer .ico2-kuantokusta-pt:before {
+    background: url('../img/15/pt_badges.png') 0 0 no-repeat;
+    content: "";
+}
+
+#footer .ico2-apek,
+#footer .ico2-apek:before {
+    width: 106px;
+    height: 80px;
+    background-position: 0 0;
+}
+#footer .ico2-apek-2,
+#footer .ico2-apek-2:before {
+    width: 69px;
+    height: 72px;
+    background-position: 0 -130px;
+}
+#footer .ico2-heureka,
+#footer .ico2-heureka:before {
+    width: 74px;
+    height: 74px;
+    background-position: 0 -254px;
+}
+#footer .ico2-heureka-2,
+#footer .ico2-heureka-2:before {
+    width: 82px;
+    height: 82px;
+    background-position: 0 -378px;
+}
+#footer .ico2-mojeid,
+#footer .ico2-mojeid:before {
+    width: 90px;
+    height: 41px;    
+    background-position: 0 -510px;
+}
+
+#footer .ico2-heureka-sk,
+#footer .ico2-heureka-sk:before {
+    width: 74px;
+    height: 74px;
+}
+#footer .ico2-pricemania-sk,
+#footer .ico2-pricemania-sk:before {
+    width: 77px;
+    height: 74px;
+}
+#footer .ico2-shoproku-sk,
+#footer .ico2-shoproku-sk:before {
+    width: 170px;
+    height: 72px;
+}
+
+#footer .ico2-obchodnikroku-sk,
+#footer .ico2-obchodnikroku-sk:before {
+    width: 295px;
+    height: 70px;
+}
+
+#footer .ico2-shopmania-de,
+#footer .ico2-shopmania-de:before {
+    width: 112px;
+    height: 88px;
+    background-position: 0 0;
+}
+#footer .ico2-billiger-de,
+#footer .ico2-billiger-de:before {
+    width: 88px;
+    height: 102px;
+    background-position: 0 0;
+}
+#footer .ico2-idealo-de,
+#footer .ico2-idealo-de:before {
+    width: 70px;
+    height: 110px;
+    background-position: 0 0;
+}
+#footer .ico2-ekomi-de,
+#footer .ico2-ekomi-de:before {
+    width: 223px;
+    height: 146px;
+    background-position: 0 0;
+}
+
+#footer .ico2-ekomi-at,
+#footer .ico2-ekomi-at:before {
+    width: 223px;
+    height: 146px;
+    background-position: 0 0;
+}
+
+#footer .ico2-ceneo-pl,
+#footer .ico2-ceneo-pl:before {
+    width: 150px;
+    height: 120px;
+    background-position: 0 -572px;
+}
+#footer .ico2-opineo-pl,
+#footer .ico2-opineo-pl:before {
+    width: 108px;
+    height: 120px;
+    background-position: 0 -80px;
+}
+#footer .ico2-tylko-pl,
+#footer .ico2-tylko-pl:before {
+    width: 145px;
+    height: 90px;
+    background-position: 0 -378px;
+}
+#footer .ico2-rzetelna-pl,
+#footer .ico2-rzetelna-pl:before {
+    width: 150px;
+    height: 85px;
+    background-position: 0 -483px;
+}
+#footer .ico2-money-pl,
+#footer .ico2-money-pl:before {
+    width: 90px;
+    height: 103px;    
+    background-position: 0 -236px;
+}
+
+#footer .ico2-shopmania-bg,
+#footer .ico2-shopmania-bg:before {
+    width: 166px;
+    height: 47px;
+    background-position: 0 -82px;
+}
+#footer .ico2-izgodno-bg,
+#footer .ico2-izgodno-bg:before {
+    width: 185px;
+    height: 43px;    
+    background-position: 0 0px;
+}
+
+#footer .ico2-shopmania-es,
+#footer .ico2-shopmania-es:before {
+    width: 165px;
+    height: 42px;
+    background-position: 0 -98px;
+}
+#footer .ico2-shopalike-es,
+#footer .ico2-shopalike-es:before {
+    width: 90px;
+    height: 90px;
+    background-position: 0 -174px;
+}
+#footer .ico2-idealo-es,
+#footer .ico2-idealo-es:before {
+    width: 68px;
+    height: 68px;
+    background-position: 0 0;
+}
+
+#footer .ico2-shopmania-pt,
+#footer .ico2-shopmania-pt:before {
+    width: 166px;
+    height: 41px;
+    background-position: 0 -88px;
+}
+#footer .ico2-shopalike-pt,
+#footer .ico2-shopalike-pt:before {
+    width: 90px;
+    height: 90px;
+    background-position: 0 -164px;
+}
+#footer .ico2-kuantokusta-pt,
+#footer .ico2-kuantokusta-pt:before {
+    width: 185px;
+    height: 44px;    
+    background-position: 0 0;
+}
+
+.flag2,
+.flag2-cs:before,
+.flag2-sk:before,
+.flag2-pl:before,
+.flag2-hu:before,
+.flag2-ua:before,
+.flag2-ro:before,
+.flag2-si:before,
+.flag2-bg:before,
+.flag2-us:before,
+.flag2-uk:before,
+.flag2-de:before,
+.flag2-at:before,
+.flag2-es:before,
+.flag2-pt:before
+ {
+  display: inline-block;
+  width: 60px;
+  height: 39px;
+  overflow: hidden;  
+  border: 1px solid #f3f3f3;
+  content: "";
+}
+.flag2-cs:before,
+.flag2-sk:before,
+.flag2-pl:before,
+.flag2-hu:before,
+.flag2-ua:before,
+.flag2-ro:before,
+.flag2-si:before,
+.flag2-bg:before,
+.flag2-us:before,
+.flag2-uk:before { 
+  background: url('../img/flags/flags-1-2.png') 0 0 no-repeat; 
+}
+.flag2-de:before,
+.flag2-at:before { 
+  background: url('../img/flags/flags-2.png') 0 0 no-repeat; 
+}
+.flag2-es:before,
+.flag2-pt:before { 
+  background: url('../img/flags/flags-3.png') 0 0 no-repeat; 
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5), (min-device-pixel-ratio: 1.5) {
+  .flag2,
+  .flag2-cs:before,
+  .flag2-sk:before,
+  .flag2-pl:before,
+  .flag2-hu:before,
+  .flag2-ua:before,
+  .flag2-ro:before,
+  .flag2-si:before,
+  .flag2-bg:before,
+  .flag2-us:before,
+  .flag2-uk:before,
+  .flag2-de:before,
+  .flag2-at:before,
+  .flag2-es:before,
+  .flag2-pt:before  {    
+    -webkit-background-size: 60px 277px;
+    background-size: 60px;
+  }
+  .flag2-cs:before,
+  .flag2-sk:before,
+  .flag2-pl:before,
+  .flag2-hu:before,
+  .flag2-ua:before,
+  .flag2-ro:before,
+  .flag2-si:before,
+  .flag2-bg:before,
+  .flag2-us:before,
+  .flag2-uk:before { 
+    background-image: url('../img/flags/flags-1-2.png');
+  }
+  .flag2-de:before,
+  .flag2-at:before { 
+    background-image: url('../img/flags/flags-2.png'); 
+  }
+  .flag2-es:before,
+  .flag2-pt:before { 
+    background-image: url('../img/flags/flags-3.png');
+  }
+}
+.flag2-cs:before {
+  background-position: -1px -1px;
+}
+.flag2-sk:before {
+  background-position: -1px -268px;
+}
+.flag2-pl:before {
+  background-position: -1px -357px;
+}
+.flag2-hu:before {
+  background-position: -1px -446px;
+}
+.flag2-ua:before {
+  background-position: -1px -624px;
+}
+.flag2-ro:before {
+  background-position: -1px -535px;
+}
+.flag2-si:before {
+  background-position: -1px -90px;
+}
+.flag2-bg:before {
+  background-position: -1px -179px;
+}
+.flag2-us:before {
+  background-position: -1px -713px;
+}
+.flag2-uk:before {
+  background-position: -1px -802px;
+}
+.flag2-de:before {
+  background-position: -1px -1px;
+}
+.flag2-at:before {
+  background-position: -1px -45px;
+}
+.flag2-es:before {
+  background-position: -1px -1px;
+}
+.flag2-pt:before {
+  background-position: -1px -45px;
+}
+
+.product-list-row .status-action,
+.product-list-row .status-new {
+  width:5em;
+  margin-left: 0;
+}
+
+.bodyLang4 .product-list-row .status-action,
+.bodyLang7 .product-list-row .status-action,
+.bodyLang7 .product-list-row .status-new,
+.bodyLang9 .product-list-row .status-action,
+.bodyLang11 .product-list-row .status-action,
+.bodyLang15 .product-list-row .status-action,
+.bodyLang15 .product-list-row .status-new   {
+  width:6em;
+}
+
+.bodyLang12 .product-list-row .status-action   {
+  width:7em;
+}      
+
+.bodyLang5 .product-list-row .status-action, 
+.bodyLang6 .product-list-row .status-action, 
+.bodyLang8 .product-list-row .status-action, 
+.bodyLang16 .product-list-row .status-action,
+.bodyLang17 .product-list-row .status-action   {
+  width:8em;
+}
+
+.bodyLang1 .product-list-row .status-action, 
+.bodyLang2 .product-list-row .status-action, 
+.bodyLang4 .product-list-row .status-action,
+.bodyLang9 .product-list-row .status-action,
+.bodyLang11 .product-list-row .status-action,
+.bodyLang12 .product-list-row .status-action   {
+  padding-bottom: 2px;
+}
+
+#main {
+  min-height: 590px;
+}
+.status-action {
+  background: #d60270;
+}
+.status-new {
+  background: #a5c131;
+}
+
+#sidebanner {
+  display: none;
+}
+@media (min-width: 1360px) {
+  #sidebanner {
+    display: block;
+  }
+  #sidebanner a,
+  #sidebanner span {
+    position: absolute;
+    top: 180px;
+    display: block;
+    width: 140px;
+    height: 430px;
+  }
+  #sidebanner .left {
+    right: 50%;
+    margin-right: 525px;
+  }
+  #sidebanner .right {
+    left: 50%;
+    margin-left: 525px;
+  }
+}
+@media (min-width: 1400px) {
+  #sidebanner .left {
+    right: 50%;
+    margin-right: 547px;
+  }
+  #sidebanner .right {
+    left: 50%;
+    margin-left: 547px;
+  }
+}
+
+form#watchdog_form_result,
+form#watchdog_form_result_fail 
+{
+  display:none;
+}
+
+.CartError {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+#footer .payments a.paypal{ background: transparent url(../img/payments.png) no-repeat top left; background-position: 0 -148px; width: 74px; height: 32px; }
+
+p.myaccount-info {
+    margin: 50px auto;
+    display: block;
+    max-width: 600px;
+    text-align: center;
+}
+
+.invert-message.info-message {
+    margin-bottom: 0px;
+}
+
+p.buttons.cart1 {
+    margin-top: 1.3em;
+}
+
+.bodyLang16 .advantages {padding:20px 80px;}
+.bodyLang16 .status-action {font-size:90%;}
+.bodyLang16 #footer #claims ul.reset {max-width:1000px;}
+.bodyLang16 #footer #claims li {width:39%;}
+.bodyLang16 #footer #claims li.ico-gift{width:20%;}
+
+.bodyLang17 .advantages {padding:20px 80px;}
+.bodyLang17 .status-action {font-size:90%;}
+.bodyLang17 #footer #claims ul.reset {max-width:1000px;}
+.bodyLang17 #footer #claims li {width:39%;}
+.bodyLang17 #footer #claims li.ico-gift{width:20%;}
+
+#popup-banner p {
+    padding-right: 0;
+}
+
+#popup-banner p button.btn {
+    margin-top: 10px;
+    position: relative;
+    width: 330px;
+}
+
+/* Femaile / Male newslettery */
+
+#popup-banner p button.btn-left {
+    display: inline-block;
+    width: 47%;
+}
+
+#popup-banner p button.btn-right {
+    display: inline-block;
+    width: 47%;
+    float: right;
+}
+
+#footer .newsletter-box .inputs-sex {
+    padding: 0;
+}
+
+#footer .newsletter-box .btn-left {
+    position: relative;
+    width: 47%;
+    float: left;
+}
+
+#footer .newsletter-box .btn-right {
+    position: relative;
+    width: 47%;
+    float: right;
+}
+
+@media (max-width: 767px) {
+    #footer .newsletter-box .btn-right {
+        margin-bottom: 20px;
+    }
+}
+
+#col-side #email-register .btn-left {
+    width: 47%;
+    float: left;
+}
+
+#col-side #email-register .btn-right {
+    width: 47%;
+    float: right;
+}
+
+/* Femaile / Male newslettery - KONEC */
+
+.p24_wfh940g table td label { margin-left: 0.33em; }
+
+#tf_upfront_badge li:before {background:none;}
+
+/* US - uprava pro dve loga*/
+
+.delivery-payment .payment-methods .method-with-ico .name.shorter {
+padding-right: 200px;
+margin-right: -200px;
+}
+
+.delivery-payment .payment-ico.platba24 {
+width: 90px;
+height: 25px;
+background: url("../img/bg/platba_24.png") no-repeat;
+}
+
+.delivery-payment .payment-ico.dinners {
+width: 97px;
+height: 25px;
+float: right;
+background: url("../img/bg/dinners.png") no-repeat;
+margin-left: 3px;
+}
+
+.delivery-payment .payment-ico.discover {
+width: 40px;
+height: 25px;
+float: right;
+background: url("../img/bg/discover.jpg") no-repeat;
+margin-left: 3px;
+}
+
+.delivery-payment .payment-ico.amex {
+width: 40px;
+height: 25px;
+float: right;
+background: url("../img/bg/amex.png") no-repeat;
+margin-left: 2px;
+}
+
+.delivery-payment .payment-ico.jcb {
+width: 32px;
+height: 25px;
+float: right;
+background: url("../img/bg/jcb.jpg") no-repeat;
+margin-left: 3px;
+}
+
+.pay-dinners:before {
+display: inline-block;
+width: 97px;
+height: 30px;
+overflow: hidden;
+background: url('../img/bg/dinners.png') white 0 0 no-repeat;
+border-radius: 2px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+content: "";
+}
+
+.pay-sofort:before {
+display: inline-block;
+width: 78px;
+height: 30px;
+overflow: hidden;
+background: url('../img/bg/sofort.png') white 0 0 no-repeat;
+border-radius: 2px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+content: "";
+}
+
+.payments span.pay-cs {
+width: 55px;
+}
+
+.pay-cs:before {
+display: inline-block;
+width: 53px;
+height: 25px;
+overflow: hidden;
+background: url('../img/bg/cs_logo.png') white 0 0 no-repeat;
+border-radius: 2px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+content: "";
+}
+
+.payments span.pay-platba24 {
+width: 115px;
+}
+
+.pay-platba24:before {
+display: inline-block;
+width: 90px;
+height: 25px;
+overflow: hidden;
+background: url('../img/bg/platba_24.png') white 0 0 no-repeat;
+border-radius: 2px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
+content: "";
+}
+
+/* -- US - uprava pro dve loga*/
+
+.bodyLang15 #search-box .reset .btn {width:100px;}
+
+/* upravy kvuli authorize.net */
+
+.delivery-payment .std-box.aim {
+    border: 0;
+    margin-top: 10px;
+}
+
+.delivery-payment .std-box.aim p {
+    margin-bottom: 5px;
+}
+
+.delivery-payment .std-box.aim label {
+    font-size: 1.5em;
+    padding: 0;
+}
+
+.delivery-payment .std-box.aim input {
+    width: 230px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px 0 5px 0;
+}
+
+.delivery-payment .std-box.aim input.cvv {
+    width: 115px;
+}
+
+.delivery-payment .std-box.aim select {
+    height: 30px;
+    padding: 1px;
+    margin: 5px 0 5px 0;
+}
+
+.delivery-payment .std-box.aim select.exp-left {
+    width: 145px;
+}
+
+.delivery-payment .std-box.aim select.exp-right {
+    width: 80px;
+    margin-left: 5px;
+}
+
+.delivery-payment .std-box.aim span.note {
+    font-size: 1.2em;
+}
+
+.coupon-tb.security-card h2 {
+    margin-bottom: 1em;
+    font-size: 185.71428571%;
+    /*padding-right: 0px;*/
+}
+
+.coupon-tb.security-card h2.visa:after {
+    content: url('../img/bg/visa_mc_cvv.jpg');
+}
+
+.coupon-tb.security-card h2.amex:after {
+    content: url('../img/bg/amex_cvv.jpg');
+    top: 300px;
+}
+
+
+.coupon-tb.security-card .subheading-text {
+    /*padding-right: 0px;*/
+}
+
+.req.bg {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.bodyLang12 .product-list-variants .inputs .btn {width:135px;}
+
+.order-summary.delivery {
+    margin-top: -20px;
+}
+
+.order-summary.delivery p {
+    font-size: 114.28571429%;
+}
+
+.order-summary.delivery li {
+    padding-left: 15px;
+    padding-top: 0px;
+}
+
+.last-visited.hp {
+  border-top: 2px solid #eeeaec;
+  text-align:center;
+}
+.last-visited.hp.upper {
+  margin-bottom:1em;
+}
+.last-visited.hp.upper {
+  border-top: none;
+  border-bottom: 2px solid #eeeaec;
+}
+.last-visited.hp h2.center {
+  font-size: 114.28571429%;
+}
+@media (min-width: 768px) {
+.last-visited.hp h2.center {
+  font-size: 171.42857143%;
+  margin-bottom: .4em;
+}
+}
+
+/* ohraniceni produktu v pripade jeho vyprodani */
+@media (max-width: 589px) {
+    .basket-list tr.sold td {
+        border-color: #C60000;
+    }
+}
+
+@media (min-width: 590px) {
+    .basket-list tr.sold td {
+        border-color: #C60000;
+    }
+}
+
+@media (max-width: 589px) {
+    .basket-list tr.sold {
+        border-color: #C60000;
+    }
+}
+
+@media (min-width: 590px) {
+    .basket-list tr.sold {
+        border-color: #C60000;
+    }
+}
+
+.basket-list tr.sold td a {
+    color: #CCC;
+}
+
+.basket-list tr.sold td.img img {
+    opacity: 0.2;
+}
+
+.related-products {
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eeeaec;
+  }
+
+.bodyLang16 #footer .logos a {
+  margin: 0 20px;
+}
+
+.bodyLang16 #footer .logos #GTS_CONTAINER, 
+.bodyLang17 #footer .logos #GTS_CONTAINER {
+  display:inline-block;
+}
+
+.bodyLang16 #footer .logos #GTS_CONTAINER img,
+.bodyLang17 #footer .logos #GTS_CONTAINER img {
+  margin: 0px 20px 10px 20px;
+}
+
+/* US kosik - upravy */
+
+/* PP express checkout */
+
+button.paypal-button.paypal-style-checkout.paypal-size-small {
+    background: url("../img/bg/checkout-logo-large.png") no-repeat;
+    width: 228px;
+    height: 48px;
+    max-width: 228px !important;
+}
+
+span.or {
+    padding-right: 100px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+
+#pd-box-overlay.pp-express-checkout {
+    opacity: 0.701961;
+}
+
+#pd-box-overlay.pp-express-checkout span {
+    font-size: 2.5em; 
+    color: white; 
+    position: fixed; 
+    top: 50%; 
+    left: 50%; 
+    width: 270px; 
+    height: 50px; 
+    -webkit-transform: translate(-50%, -50%); 
+    transform: translate(-50%, -50%);
+}
+
+/* PP express checkout - KONEC */
+
+.payments span.pay-amex {
+    background: url("../img/bg/amex.png") no-repeat;
+    width: 40px;
+    height: 29px;
+}
+
+.payments span.pay-paypal1 {
+    background: url("../img/bg/paypal.png") no-repeat;
+    width: 100px;
+    height: 26px;
+    margin-bottom: 5px;
+}
+
+.payments span.pay-mastercard1 {
+    background: url("../img/bg/master.png") no-repeat;
+    width: 40px;
+    height: 29px;
+}
+
+.payments span.pay-visa1 {
+    background: url("../img/bg/visa.png") no-repeat;
+    width: 40px;
+    height: 29px;
+}
+
+.payments span.pay-discover {
+    background: url("../img/bg/discover.jpg") no-repeat;
+    width: 40px;
+    height: 29px;
+}
+
+.payments span.pay-jcb {
+    background: url("../img/bg/jcb.jpg") no-repeat;
+    width: 32px;
+    height: 29px;
+}
+
+.basket-list-payments {
+    text-align: center;
+}
+
+.basket-list-payments .payments span {
+    margin-right: 2px;
+}
+
+.payment-logo,
+.pay-visa-verified:before,
+.pay-mastercard-secure:before,
+.pay-visa-electron:before,
+.pay-visa:before,
+.pay-mastercard:before,
+.pay-maestro:before,
+.pay-ekonto:before,
+.pay-paypal:before,
+.pay-usps:before {
+    box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .basket-list-payments {
+    float: none;
+    padding: 10px 20px 10px 20px;    
+  }
+}
+
+.basket-list-payments .payments {
+    border-right: none;
+    border-bottom: 2px solid #eeeaec;
+    width: 100%;
+  }
+
+@media (min-width: 1026px) {
+  .basket-list-payments .payments {
+    border-right: 2px solid #eeeaec;
+    border-bottom: none;
+    width: auto;
+  }
+}
+
+#col-content .logos-inner img {
+    opacity: 0.6;
+    max-width: 80%;
+    max-height: 80%;
+    padding-top: 10px;
+}
+
+/* Enter Discount Code */
+
+.basket-list-summary .voucher .inputs.new {
+    padding-right: 110px;
+}
+
+.basket-list-summary .voucher .btn.new {
+    width: 112px;
+}
+
+.us-order-3 h2 {
+    font-size: 114.28571429%;
+}
+
+.us-order-3 fieldset.std-box,
+.us-order-3 div.std-box.returning-customer {
+    border: none;    
+    padding-right: 42px;
+    background: none;
+}
+
+@media (min-width: 768px) {
+    .us-order-3 div.std-box.returning-customer {
+        border-right: 2px solid #eeeaec;
+    }
+}
+
+.us-order-3 fieldset.std-box-checkout {
+    border: none;
+}
+
+.us-order-3 .buttons2 {
+    border: none;
+    margin-top: 0px;
+}
+
+.us-order-3 fieldset.std-box .buttons {
+    border: none;
+}
+
+.us-order-4 h2,
+.us-order-4 .h2 {
+    font-size: 114.28571429%;
+}
+
+.us-order-4 .help {
+    cursor: pointer;
+}
+
+.us-order-4 .error-message {
+    font-size: 100%;
+}
+
+.us-order-4 .error-message2 {
+    font-size: 100%;
+}
+
+.us-order-4 .error-message2:before {
+  content: "⚠";
+  display: inline-block;
+  vertical-align: middle;
+  font: 14px/14px 'SSSymbolicons', Arial;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Shipping address - white */
+
+.us-order-4 .col-h-l p.std-box {
+    border: none;
+    background: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+}
+
+/* Billing address - white */
+
+.us-order-4 .col-h-l fieldset.std-box {
+    border: none;
+    background: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.us-order-4 .col-h-l fieldset.std-box .level-1 {
+    border: 0px;
+}
+
+.us-order-4 .col-h-l fieldset.std-box .method h3  {
+    border: none;
+    padding-bottom: 0px;
+}
+
+.us-order-4 .col-h-l fieldset.std-box .method h3 label {
+    padding: 0px 20px 0px 0px;
+}
+    
+.us-order-4 .col-h-l fieldset.std-box .method h3.title.billing-address-diff {
+    margin-bottom: 0px;
+}
+
+/* order summary - pod platbami */
+
+.us-order-4 ul.order-summary {
+    font-size: 100%;
+    padding: 20px;
+    border-top: 2px solid #eeeaec;
+}
+
+.us-order-4 .inp-text {
+    border: 1px solid #eeeaec;
+}
+
+.us-order-4 .inp-text-no-border {
+    border: 0px;
+}
+
+.us-order-4 .valid:after,
+.us-order-5 .valid:after {
+    width: 28px;
+}
+
+.us-order-4 .short-inputs.valid:after,
+.us-order-5 .short-inputs.valid:after { 
+    bottom: 43px;
+}
+
+@media (min-width: 960px) {
+    .us-order-4 .short-inputs.valid:after,
+    .us-order-5 .short-inputs.valid:after {
+        bottom: 8px;   
+  }
+}
+
+@media (min-width: 560px) {
+    .short-inputs .inp-text {
+        width: 100%;   
+  }
+}
+
+.us-order-4 input::-webkit-input-placeholder,
+.us-order-5 input::-webkit-input-placeholder {
+  font: normal normal 13px/22px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: #666;
+  opacity: 0.8;
+}
+
+.us-order-4 input::-moz-placeholder,
+.us-order-4 input:-moz-placeholder,
+.us-order-5 input::-moz-placeholder,
+.us-order-5 input:-moz-placeholder {
+  font: normal normal 14px/22px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: #666;
+  opacity: 0.8;
+}
+.us-order-4 input:-ms-input-placeholder,
+.us-order-4 .def,
+.us-order-5 input:-ms-input-placeholder,
+.us-order-5 .def {
+  font: normal normal 14px/22px 'Open Sans', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  color: #666;
+  opacity: 0.8;
+}
+
+.us-order-5 .h2 {
+    font-size: 114.28571429%;
+}
+
+.us-order-5 .inp-text {
+    border: 1px solid #eeeaec;
+}
+
+.us-order-5 .inp-text-no-border {
+    border: 0px;
+}
+
+.us-order-5 label,
+.us-order-5 .label {
+    font-weight: normal;
+    font-family: 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+.us-order-5 .order-summary-sticky .order-summary {
+    margin-top: 2.0em;
+}
+
+.us-order-5 .open-box label {
+    width: 100%;
+    text-align: left;
+}
+
+.us-order-5 .open-box span {
+    float: left;
+}
+
+.us-order-5 .open-box .inp-text {
+    width: 100%;
+}
+
+.product-list-row .no-coupon {
+    margin-bottom: 0px;
+    opacity: 0.7;
+}
+
+.product-list-row .coupon-applied {
+    color: #d60270;
+    font-weight: normal;
+    font-size: 87.5%;
+    margin-bottom: 5px;
+}
+
+.basket-list .price .no-coupon {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.basket-list .price .coupon-applied {
+    color: #d60270;
+    font-weight: normal;
+    font-size: 87.5%;
+    margin-bottom: 5px;
+}
+
+/* US kosik - upravy END */
+
+/* obchodni podminky 4. krok */
+
+@media (min-width: 768px) {
+    .radio-right {
+        text-align: right;        
+    }
+}
+
+@media (min-width: 768px) {
+    .radio-right input {
+        float: right;
+        margin: 12px 0 0 10px;
+    }
+}
+
+.radio+.radio.radio-right {
+    margin-top: 0px;
+}
+
+/* obchodni podminky 4. krok - END */ 
+
+/* gritter - popup o pouzivani cookies */  
+#gritter-notice-wrapper {
+  	display: none;
+  }
+  
+@media (min-width: 1026px) {
+  #gritter-notice-wrapper {
+    display: block;
+  	position:fixed;
+  	top:33px;
+  	right:20px;
+  	width:301px;
+  	z-index:9999;
+  }
+  #gritter-notice-wrapper.top-left {
+      left: 20px;
+      right: auto;
+  }
+  #gritter-notice-wrapper.bottom-right {
+      top: auto;
+      left: auto;
+      bottom: 20px;
+      right: 20px;
+  }
+  #gritter-notice-wrapper.bottom-left {
+      top: auto;
+      right: auto;
+      bottom: 20px;
+      left: 20px;
+  }
+  .gritter-item-wrapper {
+  	position:relative;
+  	margin:0 0 10px 0;
+  	background:url('../img/gritter/ie-spacer.gif'); /* ie7/8 fix */ 
+  }
+  .gritter-top {
+  	background:url(../img/gritter/gritter.png) no-repeat left -30px;
+  	height:10px;
+  }
+  .hover .gritter-top {
+  	background-position:right -30px;
+  }
+  .gritter-bottom {
+  	background:url(../img/gritter/gritter.png) no-repeat left bottom;
+  	height:8px;
+  	margin:0;
+  }
+  .hover .gritter-bottom {
+  	background-position: bottom right;
+  }
+  .gritter-item {
+  	display:block;
+  	background:url(../img/gritter/gritter.png) no-repeat left -40px;
+  	color:#eee;
+  	padding:2px 11px 8px 11px;
+  	font-size: 11px;
+  	font-family:verdana;
+  }
+  .hover .gritter-item {
+  	background-position:right -40px;
+  }
+  .gritter-item p {
+  	padding:0;
+  	margin:0;
+  	word-wrap:break-word;
+  }
+  .gritter-close {
+  	position:absolute;
+  	top:5px;
+  	right:5px;
+  	background:url(../img/gritter/gritter.png) no-repeat left top;
+  	cursor:pointer;
+  	width:30px;
+  	height:30px;
+  }
+  .gritter-title {
+  	font-size:14px;
+  	font-weight:bold;
+  	padding:0 0 7px 0;
+  	display:block;
+  	text-shadow:1px 1px 0 #000; /* Not supported by IE :( */
+  }
+  .gritter-image {
+  	width:48px;
+  	height:48px;
+  	float:left;
+  }
+  .gritter-with-image,
+  .gritter-without-image {
+  	padding:0;
+  }
+  .gritter-with-image {
+  	width:220px;
+  	float:right;
+  }
+  /* for the light (white) version of the gritter notice */
+  .gritter-light .gritter-item,
+  .gritter-light .gritter-bottom,
+  .gritter-light .gritter-top,
+  .gritter-light .gritter-close {
+      background-image: url(../img/gritter/gritter-light.png);
+      color: #222;
+  }
+  .gritter-light .gritter-title {
+      text-shadow: none;
+  }
+}
+
+/* gritter END */
+
+.product-list-row .item-coupon-price .no-coupon.dis20 {
+    text-decoration: line-through;
+}
+
+#cookie-compliance .btn-xs.close { border:none; }
+
+/* UK delsi button do kosiku */
+
+@media (min-width: 960px) {
+    .bodyLang17 .product-list-variants .inputs button.btn {
+        width: 130px;
+    }
+    .bodyLang17 .product-list-variants .item-coupon-price form {
+        width: 490px;
+    }
+}
+
+
+/* UK lookup button */
+
+.btn-lookup {
+    margin-left: 10px;
+    height: 35px;
+}
+
+.btn-lookup span {
+    line-height: 28px;
+}
+
+.us-order-5 label.address-found,
+.us-order-4 label.address-found {
+    vertical-align: top;
+}
+
+.us-order-5 span.address-found,
+.us-order-4 span.address-found {
+    display: inline-block;
+    width: 64%;
+    background-color: #b0025c;
+    padding: 5px 5px 5px 5px;
+}
+
+.us-order-5 span.address-found span,
+.us-order-4 span.address-found span {
+    display: none;
+    color: white;
+}
+
+.us-order-5 span.address-found .error-message,
+.us-order-4 span.address-found .error-message {    
+    padding: 5px;
+}
+
+@media (min-width: 960px) {
+    .inputs-compact-inline .inp-text.address-found {
+        width: 100%;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 960px) {
+    .inputs-compact-inline .inp-text.address-select {
+        width: 57%;
+    }
+}
+
+/* UK - loga karet bez AMEX */
+
+.bodyLang17 .delivery-payment .payment-ico.credit-cards {
+    width: 158px;
+    height: 25px;
+    background: url('../img/bg/payments-uk.png') 0 0 no-repeat;
+}
+
+/* Modry pruh pro postovne na cerny */
+
+.invert-message.info-message {
+    background-color: black;
+}
+
+/* US - dostupnost trochu vetsi */
+.bodyLang16 .green {
+    font-size: 120%;
+}
+
+.bodyLang16 .green.red {
+    color: red;
+    font-weight: bold;
+}
+
+/* US - odkaz na napsani review */
+.bodyLang16 a.review-link {
+    text-decoration: none;
+    color: #666666;
+}
+
+.bodyLang16 a.review-link:hover {
+    text-decoration: underline;
+    color: #d60270;
+}
+@media (min-width: 768px) {
+.product-detail-us .product-base-info .brand {
+    float: none;
+    width: 57.97%;
+  }
+.product-detail-us .product-base-info {
+    text-align: center;
+  }  
+}
+
+#long-description table tr td {padding:7px 10px}
+
+.basket-list .ico-creditcard:before {
+    color: #666;
+}
+
+#col-annot.collapsable.ca-collapsed .ca-box {padding-right:120px;}
+.bodyLang1 #col-annot.collapsable.ca-collapsed .ca-box {padding-right:80px;}
+.bodyLang11 #col-annot.collapsable.ca-collapsed .ca-box {padding-right:130px;}
